@@ -1,13 +1,96 @@
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+
+hr {
+    max-width: 500px;
+}
+
 .grid {
     display: flex;
     flex-wrap: wrap;
     width: 400px;
     height: 400px;
-    background-color: blueviolet;
+    background-color: #cdc1b5;
+    border: 6px solid #bbada0;
+    border-radius: 20px;
+    margin: 0 auto;
 }
 
 .grid div {
-    width: 100px;
-    height: 100px;
-    background-color: green;
+    width: 90px;
+    height: 90px;
+    background-color: tan;
+    font-size: 50px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    border: 5px solid #bbada0;
+}
+
+.x2 {
+    background-color: #eee4da;
+    color: #727371;
+}
+
+.x4 {
+    background-color: #ece0ca;
+    color: #727371;
+}
+
+.x8 {
+    background-color: #f4b17a;
+    color: whitesmoke;
+}
+
+.x16 {
+    background-color: #f59575;
+    color: whitesmoke;
+}
+
+.x32 {
+    background-color: #f57c5f;
+    color: whitesmoke;
+}
+
+.x64 {
+    background-color: #f65d3b;
+    color: whitesmoke;
+}
+
+.x128 {
+    background-color: #edce71;
+    color: whitesmoke;
+}
+
+.x256 {
+    background-color: #edcc63;
+    color: whitesmoke;
+}
+
+.x512 {
+    background-color: #edc651;
+    color: whitesmoke;
+}
+
+.x1024 {
+    background-color: #eec744;
+    color: whitesmoke;
+}
+
+.x2048 {
+    background-color: #ecc230;
+    color: whitesmoke;
+}
+
+.x4096 {
+    background-color: #fe3d3d;
+    color: whitesmoke;
+}
+
+.x8192 {
+    background-color: #ff2020;
+    color: whitesmoke;
 }
