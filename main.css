@@ -13,22 +13,24 @@ hr {
 
     background-color: #cdc1b5;
     border: 6px solid #bbada0;
-
+    border-radius: 20px;
     margin: 0 auto;
     display: flex;
     flex-wrap: wrap;
+    transition: ease 1s;
 }
 
 .tile {
     width: 90px;
     height: 90px;
     border: 5px solid #bbada0;
-
+    border-radius: 20px;
     font-size: 40px;
     font-weight: bold;
     display: flex;
     justify-content: center;
     align-items: center;
+    transition: ease .5s;
 }
 
 
