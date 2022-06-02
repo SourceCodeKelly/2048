@@ -1,34 +1,38 @@
 body {
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     text-align: center;
 }
 
 hr {
-    max-width: 500px;
+    width: 500px;
 }
 
-.grid {
-    display: flex;
-    flex-wrap: wrap;
+#board {
     width: 400px;
     height: 400px;
+
     background-color: #cdc1b5;
     border: 6px solid #bbada0;
-    border-radius: 20px;
+
     margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
 }
 
-.grid div {
+.tile {
     width: 90px;
     height: 90px;
-    background-color: tan;
-    font-size: 50px;
-    text-align: center;
+    border: 5px solid #bbada0;
+
+    font-size: 40px;
+    font-weight: bold;
+    display: flex;
     justify-content: center;
     align-items: center;
-    font-weight: bold;
-    border: 5px solid #bbada0;
 }
+
+
+/* colored tiles */
 
 .x2 {
     background-color: #eee4da;
@@ -42,55 +46,55 @@ hr {
 
 .x8 {
     background-color: #f4b17a;
-    color: whitesmoke;
+    color: white;
 }
 
-.x16 {
+.x16{
     background-color: #f59575;
-    color: whitesmoke;
+    color: white;
 }
 
-.x32 {
+.x32{
     background-color: #f57c5f;
-    color: whitesmoke;
+    color: white;
 }
 
-.x64 {
+.x64{
     background-color: #f65d3b;
-    color: whitesmoke;
+    color: white;
 }
 
-.x128 {
+.x128{
     background-color: #edce71;
-    color: whitesmoke;
+    color: white;
 }
 
-.x256 {
+.x256{
     background-color: #edcc63;
-    color: whitesmoke;
+    color: white;
 }
 
-.x512 {
+.x512{
     background-color: #edc651;
-    color: whitesmoke;
+    color: white;
 }
 
-.x1024 {
+.x1024{
     background-color: #eec744;
-    color: whitesmoke;
+    color: white;
 }
 
-.x2048 {
+.x2048{
     background-color: #ecc230;
-    color: whitesmoke;
+    color: white;
 }
 
 .x4096 {
     background-color: #fe3d3d;
-    color: whitesmoke;
+    color: white;
 }
 
 .x8192 {
     background-color: #ff2020;
-    color: whitesmoke;
+    color: white;
 }
